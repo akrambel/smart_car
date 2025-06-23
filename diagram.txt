@@ -1,0 +1,10 @@
+OLED SDA	D2 (GPIO4)	
+OLED SCL	D1 (GPIO5)	
+ENA 	D5 (GPIO14)	
+IN1	D6 (GPIO12)	
+IN2	D7 (GPIO13)	
+IN3	D8 (GPIO15)	
+IN4	D0 (GPIO16)	
+ENB 	D3 (GPIO0)	
+Buzzer actif	D4 (GPIO2)	
+servomotor RX and in the app the virtual pin v3
