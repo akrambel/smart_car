@@ -1,22 +1,19 @@
-/*Nodemcu ESP8266 WIFI control car with the New Blynk app.
-   This code created by the SriTu Hobby team.
-   https://www.srituhobby.com
-*/
-
-// Include the library files
 #define BLYNK_PRINT Serial
+#define BLYNK_TEMPLATE_ID "TMPL2L8Pj4r4C"
+#define BLYNK_TEMPLATE_NAME "Akram"
+#define BLYNK_AUTH_TOKEN "-CdQnh4NJ_Ss8nHnyl5L2spyx4dxVBWo"
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <Servo.h>
 
 // Define the motor pins
-#define ENA D0
-#define IN1 D1
-#define IN2 D2
-#define IN3 D3
-#define IN4 D4
-#define ENB D5
-#define servoPin D7
+#define ENA D5
+#define IN1 D6
+#define IN2 D7
+#define IN3 D8
+#define IN4 D0
+#define ENB D3
+#define servoPin 3
 
 
 // Variables for the Blynk widget values
@@ -24,9 +21,9 @@ int x = 50;
 int y = 50;
 int Speed;
 
-char auth[] = "kyugyWNncVpAywcVem7jlb-vbWFjf8sh"; //Enter your Blynk auth token
-char ssid[] = "TP-LINK_41EEBC"; //Enter your WIFI name
-char pass[] = "LINA@2018@"; //Enter your WIFI passowrd
+char auth[] = "-CdQnh4NJ_Ss8nHnyl5L2spyx4dxVBWo";
+char ssid[] = "LINA_2";
+char pass[] = "LINA@2018@";
 
 
 Servo servo;
